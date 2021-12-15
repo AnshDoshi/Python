@@ -23,12 +23,43 @@
 # '''
 
 
-a = 22
+# Code example:
+
+# a = 22
+# if (a>9):
+#     print(“Greater”)
+# else:
+#     print(“lesser”)
+
+
+
+
+#elif ladder
+a = 7
 if(a < 3):
-        print("less than 3")
+         print("less than 3")
 elif(a > 7):
-	print("greater than 7")
+        print("greater than 7")
 
 else:
-    print("greter than 3 or less than or equal to 7")
+        print("greter than 3 or less than or equal to 7")
 
+
+#Multiple if statements
+
+b = 2
+if(b < 3):
+         print("less than 3")
+if(b > 7):
+        print("greater than 7")
+
+else:
+        print("greter than 3 or less than or equal to 7")
+
+#age programm
+age=int(input("what is your age: "))
+
+if(age>18):
+        print("you are eligible")
+else:
+        print("your not eligible")
